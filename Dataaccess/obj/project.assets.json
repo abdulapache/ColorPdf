@@ -2974,11 +2974,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Prsonal\\Personal\\Dataaccess\\Dataaccess.csproj",
+      "projectUniqueName": "D:\\Prsonal\\ColorPdf\\Dataaccess\\Dataaccess.csproj",
       "projectName": "Dataaccess",
-      "projectPath": "D:\\Prsonal\\Personal\\Dataaccess\\Dataaccess.csproj",
+      "projectPath": "D:\\Prsonal\\ColorPdf\\Dataaccess\\Dataaccess.csproj",
       "packagesPath": "C:\\Users\\rahma\\.nuget\\packages\\",
-      "outputPath": "D:\\Prsonal\\Personal\\Dataaccess\\obj\\",
+      "outputPath": "D:\\Prsonal\\ColorPdf\\Dataaccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rahma\\AppData\\Roaming\\NuGet\\NuGet.Config",

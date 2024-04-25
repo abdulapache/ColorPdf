@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oc6nZDG+MeQzUzFUPcb9eUcHyBlhk+5x5bkWUJ25Y/vsrkrL9xVfJIAVHAFWkifFWzR/XPbhxb9C6Gro4ZyPAw==",
+  "dgSpecHash": "fueHBB1b12IAvt7bN2GRnf0INWJrGhbZHKtSECQj3fZEFJWkMi9AWn6Oz7cb90qPB3uCLPxej8PFwzfW6/MUXQ==",
   "success": true,
-  "projectFilePath": "D:\\Prsonal\\Personal\\Dataaccess\\Dataaccess.csproj",
+  "projectFilePath": "D:\\Prsonal\\ColorPdf\\Dataaccess\\Dataaccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahma\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\rahma\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

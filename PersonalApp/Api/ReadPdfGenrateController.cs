@@ -34,43 +34,25 @@ namespace PersonalApp.Api
                 string pdfTempPath = Path.Combine(uploadedFilesDirectory, "temp.pdf");
                 using (PdfReader pdfReader = new PdfReader(pdfTempPath))
                 {
-                    // Create a new PDF file with modified text color
+                    // Create a new PDF file with modified background
                     using (FileStream newFileStream = new FileStream(newFilePath, FileMode.Create))
                     {
                         using (PdfStamper pdfStamper = new PdfStamper(pdfReader, newFileStream))
                         {
-                            // Set the text color to blue
-                            BaseColor blueColor = BaseColor.BLUE;
+                            // Set the background color with reduced opacity
+                            BaseColor overlayColor = new BaseColor(0, 0, 255); // Blue color
+                            PdfGState gState = new PdfGState();
+                            gState.FillOpacity = 0.5f; // Adjust opacity as needed
 
-                            // Iterate through each page
                             for (int i = 1; i <= pdfReader.NumberOfPages; i++)
                             {
-                                // Get the page content
-                                PdfDictionary page = pdfReader.GetPageN(i);
-                                PdfArray contentArray = page.GetAsArray(PdfName.CONTENTS);
-
-                                if (contentArray != null)
-                                {
-                                    // Iterate through the content array
-                                    for (int j = 0; j < contentArray.Size; j++)
-                                    {
-                                        // Get the content stream
-                                        PdfObject contentObject = contentArray.GetDirectObject(j);
-                                        if (contentObject is PRStream stream)
-                                        {
-                                            // Read the content stream
-                                            byte[] data = PdfReader.GetStreamBytes(stream);
-                                            string contentString = Encoding.UTF8.GetString(data);
-
-                                            // Replace color operators with blue
-                                            contentString = contentString.Replace("rg", "0 0 1 rg"); // Set fill color to blue (RGB)
-
-                                            // Update the content stream
-                                            data = Encoding.UTF8.GetBytes(contentString);
-                                            stream.SetData(data);
-                                        }
-                                    }
-                                }
+                                PdfContentByte contentByte = pdfStamper.GetOverContent(i);
+                                contentByte.SaveState(); // Save graphics state
+                                contentByte.SetGState(gState); // Apply opacity
+                                contentByte.SetColorFill(overlayColor);
+                                contentByte.Rectangle(0, 0, pdfReader.GetPageSize(i).Width, pdfReader.GetPageSize(i).Height);
+                                contentByte.Fill();
+                                contentByte.RestoreState(); // Restore graphics state
                             }
                         }
                     }
@@ -85,5 +67,7 @@ namespace PersonalApp.Api
                 return StatusCode(500, new { status = false, message = "Error: " + ex.Message, filePath = "" });
             }
         }
+
+
     }
 }

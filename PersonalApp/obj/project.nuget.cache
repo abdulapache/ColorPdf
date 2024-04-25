@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9YdYtQ1JnGfLcOvDB9GOJ6ZvuxBjCyJ2IIvK+WjZgxmkgulHfXzsVAbJzM+NO8g/RKpe5O2cZ4tCSxq/VC0J8g==",
+  "dgSpecHash": "QwbS/d8jtxJht7WVmTLSj0UcEhFJmu+h8LUV46E9hCxZ3YAS3HdKG3tJXqsEE8rIyy6T7OuEo752gjcw1hg7DQ==",
   "success": true,
-  "projectFilePath": "D:\\Prsonal\\Personal\\PersonalApp\\PersonalApp.csproj",
+  "projectFilePath": "D:\\Prsonal\\ColorPdf\\PersonalApp\\PersonalApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\rahma\\.nuget\\packages\\aspose.drawing\\24.4.0\\aspose.drawing.24.4.0.nupkg.sha512",
     "C:\\Users\\rahma\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\rahma\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\rahma\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Prsonal\\Personal\\PersonalApp\\PersonalApp.csproj": {}
+    "D:\\Prsonal\\ColorPdf\\PersonalApp\\PersonalApp.csproj": {}
   },
   "projects": {
-    "D:\\Prsonal\\Personal\\Dataaccess\\Dataaccess.csproj": {
+    "D:\\Prsonal\\ColorPdf\\Dataaccess\\Dataaccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Prsonal\\Personal\\Dataaccess\\Dataaccess.csproj",
+        "projectUniqueName": "D:\\Prsonal\\ColorPdf\\Dataaccess\\Dataaccess.csproj",
         "projectName": "Dataaccess",
-        "projectPath": "D:\\Prsonal\\Personal\\Dataaccess\\Dataaccess.csproj",
+        "projectPath": "D:\\Prsonal\\ColorPdf\\Dataaccess\\Dataaccess.csproj",
         "packagesPath": "C:\\Users\\rahma\\.nuget\\packages\\",
-        "outputPath": "D:\\Prsonal\\Personal\\Dataaccess\\obj\\",
+        "outputPath": "D:\\Prsonal\\ColorPdf\\Dataaccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rahma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,14 +81,14 @@
         }
       }
     },
-    "D:\\Prsonal\\Personal\\PersonalApp\\PersonalApp.csproj": {
+    "D:\\Prsonal\\ColorPdf\\PersonalApp\\PersonalApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Prsonal\\Personal\\PersonalApp\\PersonalApp.csproj",
+        "projectUniqueName": "D:\\Prsonal\\ColorPdf\\PersonalApp\\PersonalApp.csproj",
         "projectName": "PersonalApp",
-        "projectPath": "D:\\Prsonal\\Personal\\PersonalApp\\PersonalApp.csproj",
+        "projectPath": "D:\\Prsonal\\ColorPdf\\PersonalApp\\PersonalApp.csproj",
         "packagesPath": "C:\\Users\\rahma\\.nuget\\packages\\",
-        "outputPath": "D:\\Prsonal\\Personal\\PersonalApp\\obj\\",
+        "outputPath": "D:\\Prsonal\\ColorPdf\\PersonalApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rahma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,11 +105,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Prsonal\\Personal\\Dataaccess\\Dataaccess.csproj": {
-                "projectPath": "D:\\Prsonal\\Personal\\Dataaccess\\Dataaccess.csproj"
+              "D:\\Prsonal\\ColorPdf\\Dataaccess\\Dataaccess.csproj": {
+                "projectPath": "D:\\Prsonal\\ColorPdf\\Dataaccess\\Dataaccess.csproj"
               },
-              "D:\\Prsonal\\Personal\\PersonalModel\\PersonalModel.csproj": {
-                "projectPath": "D:\\Prsonal\\Personal\\PersonalModel\\PersonalModel.csproj"
+              "D:\\Prsonal\\ColorPdf\\PersonalModel\\PersonalModel.csproj": {
+                "projectPath": "D:\\Prsonal\\ColorPdf\\PersonalModel\\PersonalModel.csproj"
               }
             }
           }
@@ -124,6 +124,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Aspose.Drawing": {
+              "target": "Package",
+              "version": "[24.4.0, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.1.35, )"
@@ -172,14 +176,14 @@
         }
       }
     },
-    "D:\\Prsonal\\Personal\\PersonalModel\\PersonalModel.csproj": {
+    "D:\\Prsonal\\ColorPdf\\PersonalModel\\PersonalModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Prsonal\\Personal\\PersonalModel\\PersonalModel.csproj",
+        "projectUniqueName": "D:\\Prsonal\\ColorPdf\\PersonalModel\\PersonalModel.csproj",
         "projectName": "PersonalModel",
-        "projectPath": "D:\\Prsonal\\Personal\\PersonalModel\\PersonalModel.csproj",
+        "projectPath": "D:\\Prsonal\\ColorPdf\\PersonalModel\\PersonalModel.csproj",
         "packagesPath": "C:\\Users\\rahma\\.nuget\\packages\\",
-        "outputPath": "D:\\Prsonal\\Personal\\PersonalModel\\obj\\",
+        "outputPath": "D:\\Prsonal\\ColorPdf\\PersonalModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rahma\\AppData\\Roaming\\NuGet\\NuGet.Config",

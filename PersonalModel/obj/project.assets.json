@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Prsonal\\Personal\\PersonalModel\\PersonalModel.csproj",
+      "projectUniqueName": "D:\\Prsonal\\ColorPdf\\PersonalModel\\PersonalModel.csproj",
       "projectName": "PersonalModel",
-      "projectPath": "D:\\Prsonal\\Personal\\PersonalModel\\PersonalModel.csproj",
+      "projectPath": "D:\\Prsonal\\ColorPdf\\PersonalModel\\PersonalModel.csproj",
       "packagesPath": "C:\\Users\\rahma\\.nuget\\packages\\",
-      "outputPath": "D:\\Prsonal\\Personal\\PersonalModel\\obj\\",
+      "outputPath": "D:\\Prsonal\\ColorPdf\\PersonalModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rahma\\AppData\\Roaming\\NuGet\\NuGet.Config",

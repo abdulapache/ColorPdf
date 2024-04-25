@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Aspose.Drawing/24.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Aspose.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aspose.Drawing.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.35.0": {
         "type": "package",
         "dependencies": {
@@ -1416,6 +1429,24 @@
     }
   },
   "libraries": {
+    "Aspose.Drawing/24.4.0": {
+      "sha512": "hEDMHxgd8obYP9G/rFfjcxD3jqbWyX/kmyojRdWLn6vSqTaDWiG9FRLrSQMhqLLYxMKoqUIrQ8i0Nu4uzP6UaQ==",
+      "type": "package",
+      "path": "aspose.drawing/24.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Aspose.Drawing for .NET.Agreements.pdf",
+        "License.txt",
+        "aspose.drawing.24.4.0.nupkg.sha512",
+        "aspose.drawing.nuspec",
+        "icon.png",
+        "lib/net20/Aspose.Drawing.dll",
+        "lib/net20/Aspose.Drawing.xml",
+        "lib/netstandard2.0/Aspose.Drawing.dll",
+        "lib/netstandard2.0/Aspose.Drawing.xml"
+      ]
+    },
     "Azure.Core/1.35.0": {
       "sha512": "hENcx03Jyuqv05F4RBEPbxz29UrM3Nbhnr6Wl6NQpoU9BCIbL3XLentrxDCTrH54NLS11Exxi/o8MYgT/cnKFA==",
       "type": "package",
@@ -3753,6 +3784,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Aspose.Drawing >= 24.4.0",
       "Dapper >= 2.1.35",
       "Dataaccess >= 1.0.0",
       "Hangfire >= 1.8.12",
@@ -3769,11 +3801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Prsonal\\Personal\\PersonalApp\\PersonalApp.csproj",
+      "projectUniqueName": "D:\\Prsonal\\ColorPdf\\PersonalApp\\PersonalApp.csproj",
       "projectName": "PersonalApp",
-      "projectPath": "D:\\Prsonal\\Personal\\PersonalApp\\PersonalApp.csproj",
+      "projectPath": "D:\\Prsonal\\ColorPdf\\PersonalApp\\PersonalApp.csproj",
       "packagesPath": "C:\\Users\\rahma\\.nuget\\packages\\",
-      "outputPath": "D:\\Prsonal\\Personal\\PersonalApp\\obj\\",
+      "outputPath": "D:\\Prsonal\\ColorPdf\\PersonalApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rahma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3790,11 +3822,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Prsonal\\Personal\\Dataaccess\\Dataaccess.csproj": {
-              "projectPath": "D:\\Prsonal\\Personal\\Dataaccess\\Dataaccess.csproj"
+            "D:\\Prsonal\\ColorPdf\\Dataaccess\\Dataaccess.csproj": {
+              "projectPath": "D:\\Prsonal\\ColorPdf\\Dataaccess\\Dataaccess.csproj"
             },
-            "D:\\Prsonal\\Personal\\PersonalModel\\PersonalModel.csproj": {
-              "projectPath": "D:\\Prsonal\\Personal\\PersonalModel\\PersonalModel.csproj"
+            "D:\\Prsonal\\ColorPdf\\PersonalModel\\PersonalModel.csproj": {
+              "projectPath": "D:\\Prsonal\\ColorPdf\\PersonalModel\\PersonalModel.csproj"
             }
           }
         }
@@ -3809,6 +3841,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Aspose.Drawing": {
+            "target": "Package",
+            "version": "[24.4.0, )"
+          },
           "Dapper": {
             "target": "Package",
             "version": "[2.1.35, )"

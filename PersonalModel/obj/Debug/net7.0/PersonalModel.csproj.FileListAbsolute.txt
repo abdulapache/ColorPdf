@@ -12,3 +12,17 @@ D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\refint\PersonalModel.dll
 D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\PersonalModel.pdb
 D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\PersonalModel.genruntimeconfig.cache
 D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\ref\PersonalModel.dll
+D:\Prsonal\ColorPdf\PersonalModel\bin\Debug\net7.0\PersonalModel.exe
+D:\Prsonal\ColorPdf\PersonalModel\bin\Debug\net7.0\PersonalModel.deps.json
+D:\Prsonal\ColorPdf\PersonalModel\bin\Debug\net7.0\PersonalModel.runtimeconfig.json
+D:\Prsonal\ColorPdf\PersonalModel\bin\Debug\net7.0\PersonalModel.dll
+D:\Prsonal\ColorPdf\PersonalModel\bin\Debug\net7.0\PersonalModel.pdb
+D:\Prsonal\ColorPdf\PersonalModel\obj\Debug\net7.0\PersonalModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prsonal\ColorPdf\PersonalModel\obj\Debug\net7.0\PersonalModel.AssemblyInfoInputs.cache
+D:\Prsonal\ColorPdf\PersonalModel\obj\Debug\net7.0\PersonalModel.AssemblyInfo.cs
+D:\Prsonal\ColorPdf\PersonalModel\obj\Debug\net7.0\PersonalModel.csproj.CoreCompileInputs.cache
+D:\Prsonal\ColorPdf\PersonalModel\obj\Debug\net7.0\PersonalModel.dll
+D:\Prsonal\ColorPdf\PersonalModel\obj\Debug\net7.0\refint\PersonalModel.dll
+D:\Prsonal\ColorPdf\PersonalModel\obj\Debug\net7.0\PersonalModel.pdb
+D:\Prsonal\ColorPdf\PersonalModel\obj\Debug\net7.0\PersonalModel.genruntimeconfig.cache
+D:\Prsonal\ColorPdf\PersonalModel\obj\Debug\net7.0\ref\PersonalModel.dll
