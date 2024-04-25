@@ -1,0 +1,14 @@
+D:\Prsonal\Personal\PersonalModel\bin\Debug\net7.0\PersonalModel.exe
+D:\Prsonal\Personal\PersonalModel\bin\Debug\net7.0\PersonalModel.deps.json
+D:\Prsonal\Personal\PersonalModel\bin\Debug\net7.0\PersonalModel.runtimeconfig.json
+D:\Prsonal\Personal\PersonalModel\bin\Debug\net7.0\PersonalModel.dll
+D:\Prsonal\Personal\PersonalModel\bin\Debug\net7.0\PersonalModel.pdb
+D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\PersonalModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\PersonalModel.AssemblyInfoInputs.cache
+D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\PersonalModel.AssemblyInfo.cs
+D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\PersonalModel.csproj.CoreCompileInputs.cache
+D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\PersonalModel.dll
+D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\refint\PersonalModel.dll
+D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\PersonalModel.pdb
+D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\PersonalModel.genruntimeconfig.cache
+D:\Prsonal\Personal\PersonalModel\obj\Debug\net7.0\ref\PersonalModel.dll

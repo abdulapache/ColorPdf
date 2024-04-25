@@ -1,0 +1,14 @@
+D:\Prsonal\Personal\Dataaccess\bin\Debug\net7.0\Dataaccess.deps.json
+D:\Prsonal\Personal\Dataaccess\bin\Debug\net7.0\Dataaccess.dll
+D:\Prsonal\Personal\Dataaccess\bin\Debug\net7.0\Dataaccess.pdb
+D:\Prsonal\Personal\Dataaccess\obj\Debug\net7.0\Dataaccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prsonal\Personal\Dataaccess\obj\Debug\net7.0\Dataaccess.AssemblyInfoInputs.cache
+D:\Prsonal\Personal\Dataaccess\obj\Debug\net7.0\Dataaccess.AssemblyInfo.cs
+D:\Prsonal\Personal\Dataaccess\obj\Debug\net7.0\Dataaccess.csproj.CoreCompileInputs.cache
+D:\Prsonal\Personal\Dataaccess\obj\Debug\net7.0\Dataaccess.dll
+D:\Prsonal\Personal\Dataaccess\obj\Debug\net7.0\refint\Dataaccess.dll
+D:\Prsonal\Personal\Dataaccess\obj\Debug\net7.0\Dataaccess.pdb
+D:\Prsonal\Personal\Dataaccess\obj\Debug\net7.0\ref\Dataaccess.dll
+D:\Prsonal\Personal\Dataaccess\bin\Debug\net7.0\Dataaccess.runtimeconfig.json
+D:\Prsonal\Personal\Dataaccess\obj\Debug\net7.0\Dataaccess.csproj.AssemblyReference.cache
+D:\Prsonal\Personal\Dataaccess\obj\Debug\net7.0\Dataaccess.genruntimeconfig.cache

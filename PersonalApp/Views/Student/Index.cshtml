@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Customer</title>
+</head>
+<body>
+    <h1>Create Customer</h1>
+    <form action="/Student/Create" method="post">
+      
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="Name"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="Email"><br>
+
+          <label for="customerId">Customer ID:</label><br>
+        <input type="text" id="Orders" name="Orders"><br>
+
+        <label for="customerId">Customer ID:</label><br>
+        <input type="text" id="Payments" name="Payments"><br>
+
+        <!-- You can add more fields for other properties if needed -->
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@@microsoft/signalr@8.0.0/dist/cjs/index.min.js"></script>
+
+    <script>
+        var connection = new signalR.HubConnectionBuilder().whitUrl("/chat").build();
+        connection.start().catch(function (err){
+            return console.error(err.toString());
+        });
+
+        document.getElementById("SendMessage").addEventListener("click", function (event) {
+            var user = document.getElementById("displayName").value;
+            var message = document.getElementById("message").value;
+
+            connection.Invoke("SendMessage", user, message).catch(function (err) {
+                return console.error(err.toString());
+            });
+            event.preventDefault();
+        });
+
+        connection.on("ReceiveMessage", function (user, message) {
+            var encodedMsg = user + ": " + message;
+            var li = document.createElement("li");
+
+            li.textContent = encodedMsg;
+            document.getElementById("dicussion").appendChild(li);
+        })
+
+
+
+    </script>
+
+
+</body>
+</html>
